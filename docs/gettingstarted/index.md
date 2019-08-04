@@ -6,7 +6,7 @@ This is a simple guide to get you from nothing to a basic mod. The rest of this 
 From Zero to Modding
 --------------------
 
-1. Obtain a source distribution from forge's [files][] site. (Look for the MDK file type)
+1. Obtain a source distribution from forge's [forge files][] site. (Look for the MDK file type)
 2. Extract the downloaded source distribution to an empty directory. You should see a bunch of files, and an example mod is placed in `src/main/java` for you to look at. Only a few of these files are strictly necessary for mod development, and you may reuse these files for all your projects These files are:
     * `build.gradle`
     * `gradlew.bat`
@@ -16,6 +16,8 @@ From Zero to Modding
 4. Choose your IDE:
 * For both Intellij IDEA and Eclipse their Gradle integration will handle the rest of the initial workspace setup, this includes downloading packages from Mojang, MinecraftForge, and a few other software sharing sites.
     * For most, if not all, changes to the build.gradle file to take effect Gradle will need to be invoked to re-evaluate the project, this can be done through Refresh buttons in the Gradle panels of both the previously mentioned IDEs.
+
+[forge files]: https://files.minecraftforge.net/ ""
 
 Customizing Your Mod Information
 --------------------------------
